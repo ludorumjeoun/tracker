@@ -1,0 +1,30 @@
+{
+  "name": "tracker",
+  "version": "0.0.1",
+  "description": "쇼핑몰 택배 조회",
+  "main": "tracking.js",
+  "dependencies": {
+    "cheerio": "~0.20.0",
+    "request": "~2.74.0",
+    "promise": "~7.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node tracking.js 408868386113"
+  },
+  "author": "soosmail@me.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soosgit/tracker.git"
+  },
+  "keywords": [
+    "택배",
+    "택배조회",
+    "한진택배"
+  ],
+  "bugs": {
+    "url": "https://github.com/soosgit/tracker/issues"
+  },
+  "homepage": "https://github.com/soosgit/tracker#readme"
+}
